@@ -41,22 +41,22 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-foreground;
   }
 }
 
 .auth-gradient {
-  background: linear-gradient(135deg, #1E2956 0%, #312763 33%, #4D1C77 66%, #681089 100%);
+  @apply bg-white;
 }
 
 .social-button {
-  @apply flex items-center justify-center w-12 h-12 rounded-full border border-white/20 hover:bg-white/10 transition-colors;
+  @apply flex items-center justify-center w-12 h-12 rounded-full border border-[#4D1C77]/20 hover:bg-[#4D1C77]/5 transition-colors text-[#312763];
 }
 
 .auth-input {
-  @apply w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-white/30;
+  @apply w-full px-4 py-3 bg-white border border-[#4D1C77]/20 rounded-lg text-[#1E2956] placeholder:text-[#312763]/60 focus:outline-none focus:ring-2 focus:ring-[#4D1C77]/30;
 }
 
 .auth-button {
-  @apply w-full bg-[#681089] hover:bg-[#4D1C77] text-white font-medium py-3 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-white/30;
+  @apply w-full bg-gradient-to-r from-[#1E2956] via-[#4D1C77] to-[#681089] text-white font-medium py-3 rounded-lg transition-all hover:shadow-lg hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-[#4D1C77]/30;
 }
