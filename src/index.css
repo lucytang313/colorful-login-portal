@@ -46,7 +46,7 @@
 }
 
 .auth-gradient {
-  background: linear-gradient(135deg, #1A1F2C 0%, #6E59A5 100%);
+  background: linear-gradient(135deg, #1E2956 0%, #312763 33%, #4D1C77 66%, #681089 100%);
 }
 
 .social-button {
@@ -58,5 +58,5 @@
 }
 
 .auth-button {
-  @apply w-full bg-primary hover:bg-primary/90 text-white font-medium py-3 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-white/30;
+  @apply w-full bg-[#681089] hover:bg-[#4D1C77] text-white font-medium py-3 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-white/30;
 }
